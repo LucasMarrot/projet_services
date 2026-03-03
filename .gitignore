@@ -154,4 +154,20 @@ jspm_packages/
 *.log
 .history/
 
+# Backend
+# Ignore backend-specific files and folders
+/backend/node_modules/
+/backend/dist/
+/backend/build/
+/backend/.env
+/backend/.env.*
+/backend/.prisma/
+/backend/prisma/dev.db
+/backend/prisma/*.db
+/backend/.next/
+/backend/.cache/
+/backend/.parcel-cache/
+/backend/.turbo/
+/backend/generated/prisma
+
 # End
