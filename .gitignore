@@ -1,0 +1,157 @@
+# .gitignore généré — couvre OS, IDEs, languages et outils courants
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Node.js
+node_modules/
+.npm/
+.cache/
+.next/
+out/
+dist/
+build/
+public/build/
+.parcel-cache/
+.eslintcache
+*.tgz
+
+# Package managers lock caches (keep lock files themselves by default)
+.pnp.*
+.pnpm-store/
+
+# Environment / secrets
+.env
+.env.*
+.env.local
+secrets.yml
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+ENV/
+env/
+pip-log.txt
+
+# Java / Maven / Gradle
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# Ruby / Rails
+*.rbc
+.bundle/
+log/
+tmp/
+coverage/
+.byebug_history
+
+# Go
+bin/
+obj/
+*.exe
+*.test
+vendor/
+
+# Rust
+target/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.tmproj
+*.project
+*.classpath
+
+# JetBrains
+*.iws
+*.iml
+*.ipr
+out/
+
+# JetBrains Rider/Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Docker
+docker-compose.override.yml
+.docker/
+**/docker-compose.override.yml
+
+# CI / Build artifacts
+coverage/
+coverage-final.json
+reports/
+dist/
+build/
+release/
+artifacts/
+
+# Static site / frameworks
+.svelte-kit/
+.cache/
+.nuxt/
+.cypress/
+.cypress_cache/
+
+# Misc
+bower_components/
+jspm_packages/
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+
+# OS lock / mount files
+*.lock
+*.pid
+.idea_modules/
+
+# Optional: ignore generated IDE workspace files
+*.log
+.history/
+
+# End
